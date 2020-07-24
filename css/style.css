@@ -36,7 +36,8 @@ button:focus {
     /***************** Main Section Image *****************/ }
     .main .main-content .section-header {
       font-weight: bold;
-      font-size: 45px; }
+      font-size: 45px;
+      height: 100px; }
     .main .main-content .head-para {
       font-family: 'Roboto', sans-serif;
       color: #7c80be;
