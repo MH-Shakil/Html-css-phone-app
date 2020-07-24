@@ -1,0 +1,93 @@
+
+
+/***************** Testimonial Section*****************/
+
+
+.testimonnials{
+    background: $background;
+
+    .info-header{
+        width: 60%;
+    
+        .section-header{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+        }
+        .section-para{
+            font-size: 18px;
+            color:$paraColor; 
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+    .testimonial-content{
+        // height: 360px;
+        background: $cardBgColor ;
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+       top: 50px;
+
+        .testi-para{
+            font-size: 18px;
+            color:$paraColor; 
+            font-family: 'Roboto', sans-serif;
+            width: 80%;
+            font-style: italic;
+            margin-top: 100px;
+        }
+        .author-name{
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: medium;
+
+        }
+        .position{
+            font-size: 18px;
+            color:$paraColor; 
+            font-family: 'Roboto', sans-serif
+        }
+
+       
+    } 
+
+    .testimonial-content::before{
+        position: absolute;
+        font-family: FontAwesome;
+        content: "\f10e";
+        color: #7c80be;
+        font-size: 75px;
+        left: 42%;
+        right: 42%;
+        top: -18%;
+        padding: 5px;
+        background: linear-gradient(to top, #212c47, #2a3759);
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        z-index: 2;
+    }
+
+
+    /***************** Carousel*****************/
+    .owl-dots{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    
+    .owl-carousel button.owl-dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        margin: 0 5px;
+        background-color: #fff;
+         
+    }
+    
+    .owl-carousel button.owl-dot.active{
+        background-color: #c405fb;
+    }
+    
+
+}

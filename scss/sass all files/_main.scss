@@ -1,0 +1,298 @@
+
+/***************** Navigation List *****************/
+li{
+    .nav-item:last-child a{
+        margin-right: 0;
+    }
+}
+
+button:focus
+{
+	outline: none;
+}
+
+
+/***************** Main Section *****************/
+.main{
+    background: linear-gradient($background, $background);
+    width: 100%;
+    position: relative;
+    .main-content{
+        padding-top: 8rem; 
+
+        .section-header{
+            font-weight: bold;
+            font-size: 45px;
+    
+        }
+
+        .head-para{
+            font-family: 'Roboto', sans-serif;
+            color: #7c80be;
+            font-size: 20px; 
+        }
+
+
+    /***************** Main Section Image *****************/
+        .iphone-image{
+            width: 70%;
+            margin-left: 80px;
+            position: relative;
+
+            .main-img-on{
+                position: absolute;
+                top: 2%;
+                width: 94%;
+                left: 11px;
+                height: 96%;
+            }
+        
+            .img-js{
+                opacity: 0;
+            }
+        
+            .img-js.animated{
+                opacity: 1;
+            }
+        
+            .img-js1{
+                opacity: 0;
+                animation-delay: 1s;
+            }
+        
+            .img-js1.animated{
+                opacity: 1;
+            }
+    
+        }
+    }
+
+    /***************** Main Section Circle Image *****************/
+.bg-image{
+    position: absolute;
+    z-index: 2;
+    left: 60%;
+    top: 35%;
+    
+
+}
+/***************** Main Section Buttons *****************/
+    .store-button{
+        padding: 10px 40px;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba($color: #1b243b, $alpha: 0.8);
+        border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;  
+    }
+
+    
+    .app-store::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right, #ffc71f,#c404fc);
+        content: '';
+        z-index: -1;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+
+    .app-store:hover::before{
+        left:100%;
+        
+    }
+    .app-store{
+        z-index: 1;
+    }
+
+    .google-play{
+        border: 1px solid #fff;
+        z-index: 1;
+        
+    }
+
+    .google-play::after{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: -100%;
+        content: '';
+        background-image: linear-gradient(to right, #ffc71f,#c404fc);
+        transition: all 0.5s ease;
+        z-index: -1;
+
+    }
+
+    .google-play:hover::after{
+        left: 0;
+
+    }
+
+    .google-play:hover{
+        border: 1px solid rgba($color: #1b243b, $alpha: 0.8);
+    }
+
+
+
+
+
+    /****************** Stars **************/
+    .star1{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+
+    .star2{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+
+    .star3{
+        position: absolute;
+        top: 10%;
+        left: 95%;
+    }
+
+    .star4{
+        position: absolute;
+        top: 42%;
+        left: 92%;
+    }
+
+    .star5{
+        position: absolute;
+        top: 73%;
+        left: 1%;
+    }
+
+    .star6{
+        position: absolute;
+        top: 77%;
+        left: 36%;
+    }
+
+    .star7{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+    }
+
+    .star8{
+        position: absolute;
+        top: 97%;
+        left: 98%;
+    }
+
+
+
+    /****************** Shooting Stars **************/
+
+    .shooting-star-container1{
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        transform: rotateZ(-35deg);
+    }
+    .shooting-star1{
+        position: absolute;
+        height: 5px;
+        background: linear-gradient(-45deg, #40436e, rgba(0,0,255,0));
+        border-radius: 999px;
+        // filter: drop-shadow(0 0 6px #343a54);
+        animation: tail 3s ease-in-out infinite,
+                   goingUp 3s ease-in-out infinite;
+    }
+
+    .shooting-star-container2{
+        position: absolute;
+        left: 45%;
+        top: 68%;
+        transform: rotateZ(-35deg);
+    }
+    .shooting-star2{
+        position: absolute;
+        height: 5px;
+        background: linear-gradient(-45deg, #40436e, rgba(0,0,255,0));
+        border-radius: 999px;
+        // filter: drop-shadow(0 0 6px #343a54);
+        animation: tail 3s ease-in-out infinite,
+                   goingUp 3s ease-in-out infinite;
+    }
+
+    .shooting-star-container3{
+        position: absolute;
+        left: 43%;
+        top: 76%;
+        transform: rotateZ(-35deg);
+    }
+    .shooting-star3{
+        position: absolute;
+        height: 5px;
+        background: linear-gradient(-45deg, #40436e, rgba(0,0,255,0));
+        border-radius: 999px;
+        // filter: drop-shadow(0 0 6px #343a54);
+        animation: tail 3s ease-in-out infinite,
+                   goingUp 3s ease-in-out infinite;
+    }
+
+    .shooting-star-container4{
+        position: absolute;
+        left: 80%;
+        top: 75%;
+        transform: rotateZ(-35deg);
+    }
+    .shooting-star4{
+        position: absolute;
+        height: 5px;
+        background: linear-gradient(-45deg, #40436e, rgba(0,0,255,0));
+        border-radius: 999px;
+        // filter: drop-shadow(0 0 6px #343a54);
+        animation: tail 3s ease-in-out infinite,
+                   goingUp 3s ease-in-out infinite;
+    }
+
+    @keyframes tail {
+        0%{
+            width: 0;
+        }
+
+        30%{
+            width: 100px;
+        }
+        100%{
+            width: 0;
+        }
+    }
+
+    @keyframes goingUp{
+        0%{
+            transform: translate(0);
+        }
+
+        100%{
+            transform: translate(300px);
+        }
+    }
+   
+}
+
+
+
+
+
+    

@@ -1,0 +1,36 @@
+/***************** Fonts *****************/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/***************** Padding For Every Section *****************/
+.section-padding{
+    padding: 120px 0;
+}
+
+
+/***************** Dark Overlay in Nav *****************/
+.overlay{
+    background-color:rgba(1, 26, 34, 0.9);
+}
+
+$background: #1e2841;
+$cardBgColor: linear-gradient(to top, #212b47,#2a3759);
+$beforePseudo: linear-gradient(to top, #212c47,#2a3759);
+$paraColor: #5a6193;
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+@import './sass all files/main';
+@import './sass all files/services';
+@import './sass all files/features';
+@import './sass all files/app-tutorial';
+@import './sass all files/screenshot';
+@import './sass all files/testimonial';
+@import './sass all files/footer';
+
+

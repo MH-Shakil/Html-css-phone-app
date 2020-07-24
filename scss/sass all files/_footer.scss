@@ -1,0 +1,26 @@
+
+/***************** Footer *****************/
+footer{
+    background: $background;
+    padding-top: 60px;
+    
+    .footer-container{
+        background: #182035;
+        .head-content{
+            font-size: 16px;
+            color:$paraColor; 
+            font-family: 'Roboto', sans-serif;
+            .code-theme{
+                color: #c645e4;
+            }
+    
+        }
+        a{
+            color: #7c80be;
+            font-size: 20px;
+        }
+        a:hover{
+            color: #c645e4;
+        }
+    }
+    }

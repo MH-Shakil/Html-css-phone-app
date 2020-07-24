@@ -1,0 +1,45 @@
+/***************** App Tutorial Section*****************/
+
+.app-tutorial {
+    background: $background;
+    .app-background{
+        background:linear-gradient(to right,rgba(39,53,84,0.95),rgba(41,57,91,0.95)),url(../img/app-bg1.png) ;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+.tutorial-content{  
+    height: 600px;
+    .info-tutorial{
+        width: 60%;
+        
+        .section-header{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+        }
+        .head-para{
+            font-size: 18px;
+            color:$paraColor; 
+        }
+    }
+
+    .video{
+        padding: 35px;
+        border-radius: 100%;
+        font-size: 20px;
+        position: relative;
+        background: linear-gradient(to right, #ffc71f, #c404fc);    
+    }
+   
+
+}
+/***************** Tutorial section Bg circle Image *****************/
+.bg-tutorial{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+
+}

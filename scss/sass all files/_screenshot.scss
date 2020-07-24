@@ -1,0 +1,58 @@
+
+/***************** App Screenshot Section*****************/
+
+.app-screenshot{
+    background: $background ;
+    position: relative;
+
+    .info-screenshot{
+        width: 60%;
+    
+        .section-header{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 36px;
+        }
+        .head-para{
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color:$paraColor; 
+        }
+    }
+
+
+    .screenshot-carousel{
+
+        .images{
+            height: 700px;
+        }
+        
+        .owl-carousel{
+            width: 90%;
+            margin: 0 auto;
+         }
+
+        .owl-item{
+            transform: scale(0.8);
+            transition: all 0.5s ease;
+            z-index: -1;
+            
+        }
+    
+        .owl-item.active.center{
+            transform: scale(1);
+            transition: all 0.5s ease;
+            z-index: 1;
+           
+        }
+    }    
+    
+}
+
+/***************** App Screenshot bg image circle*****************/
+.bg-screenshot{
+    position: absolute;
+    left: 75%;
+    top: 0;
+    z-index: 2;
+}

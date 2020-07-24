@@ -1,0 +1,196 @@
+
+/***************** Features *****************/
+
+.features{
+    background: linear-gradient($background, $background);
+    position: relative;
+    .section-header{
+        font-size: 36;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    .head-para{
+        color: $paraColor;
+        font-size: 16px;
+    }
+    .info-header{
+        width: 50%;
+        margin: auto;
+    }
+    .feature-image{
+        width: 100%;
+    }
+    .info-feature {
+        .feature-content{
+            z-index: 3;
+        }
+        .feature-header{
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            color: #fff;
+        }
+
+        .feature-header:hover{
+            color: #ae44ce;
+            cursor: pointer;
+            
+        }
+        .feature-para{
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            color: $paraColor;
+        }
+        .icon-main{
+            font-size: 25px;   
+        }
+        .icon-main1{
+            font-size: 25px; 
+            z-index: 3;  
+        }
+
+        .icon{
+            color: #6878a0;
+        }
+
+        .icon1{
+            color: #6878a0;
+            z-index: 3;
+        }
+
+
+        .feature-icon{
+            position: relative;
+            display: inline-block;
+            padding: 25px;
+            background: $beforePseudo;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+        }
+
+        .feature-icon::before{
+            position: absolute;
+            content: '';
+            background-color: #575b9d;
+            width: 200%;
+            height: 2px;
+            left: 100%;
+            top: 50%;
+
+        }
+
+        .feature-icon::after{
+            position: absolute;
+            content: '';
+            background-color: #d248f0;
+            width: 10%;
+            left: 300%;
+            top: 37%;
+            border-radius: 100%;
+            padding: 6px;
+            border: 5px solid #593079;
+           
+        
+        }
+
+        .feature-icon1{
+            position: relative;
+            display: inline-block;
+            padding: 25px;
+            background: $beforePseudo;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+            z-index: 3;
+        }
+
+       
+
+        .feature-icon1::before{
+            position: absolute;
+            content: '';
+            background-color: #575b9d;
+            width: 200%;
+            height: 2px;
+            right: 100%;
+            top: 50%;
+            z-index: 3;
+
+        }
+
+       
+
+        .feature-icon1::after{
+            position: absolute;
+            content: '';
+            background-color: #d248f0;
+            width: 10%;
+            right: 300%;
+            top: 37%;
+            border-radius: 100%;
+            padding: 6px;
+            border: 5px solid #593079;
+            z-index: 3;
+           
+        
+        }
+
+        .icon::before{
+            position: absolute;
+            content: '';
+            background-color: #d248f0;
+            width: 0;
+            height: 2px;
+            left: 100%;
+            top: 50%;
+            transition: all 0.5s ease; 
+        }
+
+        .icon1::before{
+            position: absolute;
+            content: '';
+            background-color: #d248f0;
+            width: 0;
+            height: 2px;
+            right: 100%;
+            top: 50%;
+            transition: all 0.5s ease; 
+            z-index: 3;
+        }
+
+        .icon:hover::before{
+            width: 200%;
+        }
+
+        .icon1:hover::before{
+            width: 200%;
+            z-index: 3;
+        }
+
+        .icon-main:hover{
+            color:#d248f0;
+            transition: all 0.5s ease; 
+            cursor: pointer;
+        }
+
+        .icon-main1:hover{
+            color:#d248f0;
+            transition: all 0.5s ease; 
+            cursor: pointer;
+            z-index: 3;
+        }
+
+        
+    }
+
+    /***************** Features Section Background Circle *****************/
+    .bg-feature{
+        position: absolute;
+        left: 75%;
+        top: -15%;
+        z-index: 2;
+
+    }
+}
+
+
+

@@ -1,0 +1,195 @@
+@media screen and (max-width: 991px){
+
+	.navbar-nav li.nav-item
+	{
+		margin:8px 0;
+		text-align: center;
+	}
+
+	.navbar-nav-bg
+	{
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+	
+	
+	.card-resp{
+		margin-bottom: 50px;
+	}
+	.google-play{
+		margin-top: 8px;
+	}
+
+	.main-buttons{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.section-padding{
+		padding: 80%;
+	}
+
+	/* .main .iphone-image{
+		display: none;
+	} */
+
+	.main .main-content{
+		text-align: center;
+	}
+
+
+	.bg-image{
+		display: none;
+	}
+
+	.bg-feature{
+		display: none;
+	}
+
+	.bg-tutorial{
+		display: none;
+	}
+	
+	.bg-screenshot{
+		display: none;
+	}
+
+	/* .owl-carousel .owl-stage-outer{
+		height: 600px;
+	} */
+
+	/* .screenshot-carousel .images{
+		height: 70%;
+	} */
+}
+
+@media screen and (max-width: 767px){
+	.main .main-content{
+		text-align: center;
+	}
+
+	/* .screenshot-carousel .images{
+		height: 100%;
+		width: 100%;
+	}
+	 */
+	 .testimonnials .testimonial-content::before{
+		 display: none;
+	 }
+	 .head-content{
+		flex: 2;
+	 }
+
+	 .main .shooting-star-container4 {
+		 display: none;
+	 }
+
+
+	
+}
+
+
+@media screen and (max-width: 360px){
+
+	.card-resp{
+		margin-bottom: 70px;
+	}
+
+	.features .section-header{
+		font-size: 30px;
+	}
+
+	.features .head-para{
+		text-align: left;
+	}
+
+	/* .testimonnials .testimonial-content .testi-para{
+		line-height: 1.1;
+		margin-bottom: 1px;
+	}
+
+	.testimonnials .testimonial-content .author-name{
+		font-size: 15px;
+		line-height: 0.2;
+	} */
+
+}
+
+
+
+
+/* @media screen and (max-width: 500px){
+	.testimonnials .testimonial-content .testi-para{
+		line-height: 1.2;
+		margin-bottom: 1px;
+	}
+
+	.testimonnials .testimonial-content .author-name{
+		font-size: 15px;
+		line-height: 0.2;
+	}
+
+} */
+
+@media screen and (max-width: 455px){
+	.feature-icon::before{
+		display: none;
+	}
+	.feature-icon1::before{
+		display: none;
+	}
+
+	.feature-icon::after{
+		display: none;
+	}
+	.feature-icon1::after{
+		display: none;
+	}
+
+	/* .testimonnials .testimonial-content .testi-para{
+		line-height: 1.2;
+		margin-bottom: 1px;
+	}
+
+	.testimonnials .testimonial-content .author-name{
+		font-size: 15px;
+		line-height: 0.2;
+	} */
+
+	
+}
+
+@media screen and (max-width: 1199px){
+	.feature-main-img{
+		width: 88%;
+    	margin-left: 18px;
+	}
+	.image-container{
+		margin-top: 40px;
+	}
+
+	.main .shooting-star-container4 {
+		left: 50%;
+	}
+
+	/* .section-padding{
+		padding: 80%;
+	} */
+	.bg-image{
+		display: none;
+	}
+
+	.bg-feature{
+		display: none;
+	}
+
+	.bg-tutorial{
+		display: none;
+	}
+	
+	.bg-screenshot{
+		display: none;
+	}
+
+	
+
+}
