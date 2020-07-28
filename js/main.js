@@ -105,10 +105,16 @@ var typed = new Typed(".mytext", {
         margin: -25
        },
        360:{
-        items:1
+        items:1,
+        autoplay:true,
+        rewind:true,
+        loop:true
       },
       320:{
-        items:1
+        items:1,
+        autoplay:true,
+        rewind:true,
+        loop:true
       }
     }
     // autoHeight:true
