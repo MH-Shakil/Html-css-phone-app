@@ -46,13 +46,12 @@
            
         }
     }    
-    
+     /***************** App Screenshot bg image circle*****************/
+    .bg-screenshot{
+        position: absolute;
+        left: 73%;
+        top: 0;
+        z-index: 2;
+    }
 }
 
-/***************** App Screenshot bg image circle*****************/
-.bg-screenshot{
-    position: absolute;
-    left: 75%;
-    top: 0;
-    z-index: 2;
-}

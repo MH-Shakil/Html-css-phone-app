@@ -8,6 +8,14 @@
         background-attachment: fixed;
         background-position: center;
     }
+
+    /***************** Tutorial section Bg circle Image *****************/
+    .bg-tutorial{
+        position: absolute;
+        z-index: 2;
+        left: 0;
+    
+    }
 }
 
 .tutorial-content{  
@@ -27,19 +35,19 @@
     }
 
     .video{
-        padding: 35px;
+        padding: 45px;
+        display: block;
+        height: 120px;
+        width: 120px;
         border-radius: 100%;
         font-size: 20px;
         position: relative;
-        background: linear-gradient(to right, #ffc71f, #c404fc);    
+        background: linear-gradient(to right, #ffc71f, #c404fc) 
     }
+
+    
+
    
 
 }
-/***************** Tutorial section Bg circle Image *****************/
-.bg-tutorial{
-    position: absolute;
-    z-index: 2;
-    left: 0;
 
-}

@@ -69,7 +69,7 @@ button:focus
     }
 
     /***************** Main Section Circle Image *****************/
-.bg-image{
+.bg-main{
     position: absolute;
     z-index: 2;
     left: 60%;
@@ -118,6 +118,20 @@ button:focus
         z-index: 1;
     }
 
+    .app-store:hover{
+        border: 1px solid #fff;
+        
+    }
+
+    // .app-hover-transparent{
+    //     // position: relative;
+    //     background: transparent !important;
+    //     // &::after{
+    //     //     background: transparent;
+    //     // }
+    // }
+
+
     .google-play{
         border: 1px solid #fff;
         z-index: 1;
@@ -139,11 +153,11 @@ button:focus
 
     .google-play:hover::after{
         left: 0;
-
     }
 
     .google-play:hover{
         border: 1px solid rgba($color: #1b243b, $alpha: 0.8);
+        
     }
 
 
@@ -154,49 +168,49 @@ button:focus
     .star1{
         position: absolute;
         top: 15%;
-        left: 5%;
+        left: 17%;
     }
 
     .star2{
         position: absolute;
         top: 20%;
-        left: 40%;
+        left: 44%;
     }
 
     .star3{
         position: absolute;
         top: 10%;
-        left: 95%;
+        left: 86%;
     }
 
     .star4{
         position: absolute;
         top: 42%;
-        left: 92%;
+        left: 83%;
     }
 
     .star5{
         position: absolute;
         top: 73%;
-        left: 1%;
+        left: 4%;
     }
 
     .star6{
         position: absolute;
         top: 77%;
-        left: 36%;
+        left: 40%;
     }
 
     .star7{
         position: absolute;
         top: 85%;
-        left: 50%;
+        left: 52%;
     }
 
     .star8{
         position: absolute;
         top: 97%;
-        left: 98%;
+        left: 96%;
     }
 
 
@@ -205,8 +219,8 @@ button:focus
 
     .shooting-star-container1{
         position: absolute;
-        left: 10%;
-        top: 25%;
+        left: 20%;
+        top: 30%;
         transform: rotateZ(-35deg);
     }
     .shooting-star1{
@@ -222,7 +236,7 @@ button:focus
     .shooting-star-container2{
         position: absolute;
         left: 45%;
-        top: 68%;
+        top: 75%;
         transform: rotateZ(-35deg);
     }
     .shooting-star2{
@@ -238,7 +252,7 @@ button:focus
     .shooting-star-container3{
         position: absolute;
         left: 43%;
-        top: 76%;
+        top: 85%;
         transform: rotateZ(-35deg);
     }
     .shooting-star3{
@@ -253,8 +267,8 @@ button:focus
 
     .shooting-star-container4{
         position: absolute;
-        left: 80%;
-        top: 75%;
+        left: 83%;
+        top: 85%;
         transform: rotateZ(-35deg);
     }
     .shooting-star4{

@@ -11,7 +11,7 @@ doc.ready(function(){
 /******** Head Text Type *******/
 
 var typed = new Typed(".mytext", {
-  strings: ["App Just  <br /> What Your Needed"],
+  strings: ["App Just  <br /> What You Needed"],
   smartBackspace: true,
   loop: true,
   backDelay:2000,
@@ -51,6 +51,12 @@ var typed = new Typed(".mytext", {
     }
   })
 
+ /******** Main Section Button Hover Effect*******/
+
+//  $('.google-hover').hover(
+//   function(){ $(this).addClass('app-hover-transparent') },
+//   function(){ $(this).removeClass('app-hover-transparent') }
+// )
 
   /******** Screenshot Carousel *******/
 
@@ -58,7 +64,7 @@ var typed = new Typed(".mytext", {
 
 
     responsive:{
-    1320:{
+    1366:{
     items:3,
     autoplay:true,
     rewind:true,
@@ -66,12 +72,37 @@ var typed = new Typed(".mytext", {
     margin: -39,
     center: true,
     },
+
+      1199:{
+        items:3,
+        autoplay:true,
+        rewind:true,
+        loop:true,
+        margin: -33,
+        center: true,
+      },
+      1024:{
+        items:3,
+        autoplay:true,
+        rewind:true,
+        loop:true,
+        margin: -33,
+        center: true,
+      },
       991:{
-        margin:-24
+        items:2,
+        autoplay:true,
+        rewind:true,
+        loop:true,
+        margin: -25
        },
 
        767:{
-         items:2
+        items:2,
+        autoplay:true,
+        rewind:true,
+        loop:true,
+        margin: -25
        },
        360:{
         items:1
@@ -214,11 +245,11 @@ $(window).on('mousemove click', function(e) {
 	// console.log(isHovered1);
 	//if(!$(e.target).hasClass('animate-this')) {
     if(!isHovered) {
-      var lMouseX = Math.max(-200, Math.min(200, $(window).width() / 2 - e.clientX)),
-          lMouseY = Math.max(-200, Math.min(200, $(window).height() / 2 - e.clientY));
+      var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 4 - e.clientX)),
+          lMouseY = Math.max(-100, Math.min(100, $(window).height() / 4 - e.clientY));
   
-      lFollowX = (40 * lMouseX) / 200;
-      lFollowY = (40* lMouseY) / 200;
+      lFollowX = (40 * lMouseX) / 100;
+      lFollowY = (20 * lMouseY) / 100;
     }
 
     

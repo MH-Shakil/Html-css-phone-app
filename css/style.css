@@ -61,7 +61,7 @@ button:focus {
         animation-delay: 1s; }
       .main .main-content .iphone-image .img-js1.animated {
         opacity: 1; }
-  .main .bg-image {
+  .main .bg-main {
     position: absolute;
     z-index: 2;
     left: 60%;
@@ -97,6 +97,8 @@ button:focus {
     left: 100%; }
   .main .app-store {
     z-index: 1; }
+  .main .app-store:hover {
+    border: 1px solid #fff; }
   .main .google-play {
     border: 1px solid #fff;
     z-index: 1; }
@@ -117,39 +119,39 @@ button:focus {
   .main .star1 {
     position: absolute;
     top: 15%;
-    left: 5%; }
+    left: 17%; }
   .main .star2 {
     position: absolute;
     top: 20%;
-    left: 40%; }
+    left: 44%; }
   .main .star3 {
     position: absolute;
     top: 10%;
-    left: 95%; }
+    left: 86%; }
   .main .star4 {
     position: absolute;
     top: 42%;
-    left: 92%; }
+    left: 83%; }
   .main .star5 {
     position: absolute;
     top: 73%;
-    left: 1%; }
+    left: 4%; }
   .main .star6 {
     position: absolute;
     top: 77%;
-    left: 36%; }
+    left: 40%; }
   .main .star7 {
     position: absolute;
     top: 85%;
-    left: 50%; }
+    left: 52%; }
   .main .star8 {
     position: absolute;
     top: 97%;
-    left: 98%; }
+    left: 96%; }
   .main .shooting-star-container1 {
     position: absolute;
-    left: 10%;
-    top: 25%;
+    left: 20%;
+    top: 30%;
     transform: rotateZ(-35deg); }
   .main .shooting-star1 {
     position: absolute;
@@ -160,7 +162,7 @@ button:focus {
   .main .shooting-star-container2 {
     position: absolute;
     left: 45%;
-    top: 68%;
+    top: 75%;
     transform: rotateZ(-35deg); }
   .main .shooting-star2 {
     position: absolute;
@@ -171,7 +173,7 @@ button:focus {
   .main .shooting-star-container3 {
     position: absolute;
     left: 43%;
-    top: 76%;
+    top: 85%;
     transform: rotateZ(-35deg); }
   .main .shooting-star3 {
     position: absolute;
@@ -181,8 +183,8 @@ button:focus {
     animation: tail 3s ease-in-out infinite, goingUp 3s ease-in-out infinite; }
   .main .shooting-star-container4 {
     position: absolute;
-    left: 80%;
-    top: 75%;
+    left: 83%;
+    top: 85%;
     transform: rotateZ(-35deg); }
   .main .shooting-star4 {
     position: absolute;
@@ -412,18 +414,23 @@ button:focus {
     z-index: 3; }
   .features .bg-feature {
     position: absolute;
-    left: 75%;
+    left: 73%;
     top: -15%;
     z-index: 2; }
 
 /***************** App Tutorial Section*****************/
 .app-tutorial {
-  background: #1e2841; }
+  background: #1e2841;
+  /***************** Tutorial section Bg circle Image *****************/ }
   .app-tutorial .app-background {
     background: linear-gradient(to right, rgba(39, 53, 84, 0.95), rgba(41, 57, 91, 0.95)), url(../img/app-bg1.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center; }
+  .app-tutorial .bg-tutorial {
+    position: absolute;
+    z-index: 2;
+    left: 0; }
 
 .tutorial-content {
   height: 600px; }
@@ -437,22 +444,20 @@ button:focus {
       font-size: 18px;
       color: #5a6193; }
   .tutorial-content .video {
-    padding: 35px;
+    padding: 45px;
+    display: block;
+    height: 120px;
+    width: 120px;
     border-radius: 100%;
     font-size: 20px;
     position: relative;
     background: linear-gradient(to right, #ffc71f, #c404fc); }
 
-/***************** Tutorial section Bg circle Image *****************/
-.bg-tutorial {
-  position: absolute;
-  z-index: 2;
-  left: 0; }
-
 /***************** App Screenshot Section*****************/
 .app-screenshot {
   background: #1e2841;
-  position: relative; }
+  position: relative;
+  /***************** App Screenshot bg image circle*****************/ }
   .app-screenshot .info-screenshot {
     width: 60%; }
     .app-screenshot .info-screenshot .section-header {
@@ -476,13 +481,11 @@ button:focus {
     transform: scale(1);
     transition: all 0.5s ease;
     z-index: 1; }
-
-/***************** App Screenshot bg image circle*****************/
-.bg-screenshot {
-  position: absolute;
-  left: 75%;
-  top: 0;
-  z-index: 2; }
+  .app-screenshot .bg-screenshot {
+    position: absolute;
+    left: 73%;
+    top: 0;
+    z-index: 2; }
 
 /***************** Testimonial Section*****************/
 .testimonnials {
